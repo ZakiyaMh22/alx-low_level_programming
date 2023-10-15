@@ -1,13 +1,11 @@
 #include <stdio.h>
 
 /**
- *
  * main - Entry point
  *
  * Description: using the sizeofto print the size of various types.
  *
  * Return: Always 0 (success)
- *
 */
 
 int main(void)
