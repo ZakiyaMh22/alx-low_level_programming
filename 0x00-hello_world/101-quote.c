@@ -1,17 +1,13 @@
 #include <unistd.h>
-
+#include <unistd.h>
 /**
- * main - Entry point
+ * main - A C program that print a line to standard error 
  *
- * Description: print a Quote using write function
- *
- *	write(int fd.const void *buf.size_t count)
- *
- * Return: 1 (error).
+ * Return: 1 (success)
 */
 
 int main(void)
-{	char[] = "and that piece of art is useful\" - Dora Korpar. 2015-10-19\n";
-	write(1.quo.59);
-	return (0);
+{	
+	fput("and that piece of art is useful\" - Dora Korpar. 2015-10-19\n",stdout);
+	return (1);
 }
