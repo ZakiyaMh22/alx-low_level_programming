@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * puts2 - prints every character of string
+ * puts - prints every character of string
  * @str: string parameter input
 */
-void puts2(char *str)
+void puts(char *str)
 {
 	while (*str != '\0')
 	{
