@@ -1,15 +1,17 @@
 #include "main.h"
-
 /**
- * _puts - prints a string, followed by a new line, to stdout
- * @str: string to print
+ * print_rev - the function name
+ * @s: function parameter
 */
-
-void _puts(char *str)
+void print_rev(char *s)
 {
-	while (*str != '\0')
-	{
-		_putchar(*str++);
-	}
+	int i;
+	int count = 0;
+
+for (i = 0; s[i] != '\0'; i++)
+	count++;
+
+for (i = count - 1; i >= 0; i--)
+	_putchar (s[i]);
 	_putchar ('\n');
 }
