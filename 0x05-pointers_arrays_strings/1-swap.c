@@ -2,10 +2,10 @@
 
 /**
  * swap_int - swaps the value of two integers
- * 		using two inpt parameters
+ *		using two inpt parameters
  *
- * @n: input parameters 1
- * @n: input parameters 2
+ * @a: input parameters 1
+ * @b: input parameters 2
  *
  * Return: Nothing
 */
