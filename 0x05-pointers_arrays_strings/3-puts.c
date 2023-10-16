@@ -1,17 +1,14 @@
 #include "main.h"
 /**
- * print_rev - the function name
- * @s: function parameter
+ * puts2 - prints every character of string
+ * @str: string parameter input
 */
-void print_rev(char *s)
+void puts2(char *str)
 {
-	int i;
-	int count = 0;
-
-for (i = 0; s[i] != '\0'; i++)
-	count++;
-
-for (i = count - 1; i >= 0; i--)
-	_putchar (s[i]);
-	_putchar ('\n');
+	while (*str != '\0')
+	{
+		_putchar(*str + 0);
+		str++;
+	}
+		_putchar('\n');
 }
