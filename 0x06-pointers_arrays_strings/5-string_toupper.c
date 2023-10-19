@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  *  * string_toupper -  function that changes all lowercase letters
@@ -24,3 +24,4 @@ char *string_toupper(char *s)
 											length_of_string++;
 												}
 					return (s);
+}
