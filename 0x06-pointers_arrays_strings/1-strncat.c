@@ -5,11 +5,12 @@
  * 
  * @dest: desttination string pointer
  * @src: source string pointer
+ * @n: number of bytes
  *
  * Return: pointer to destination string
  */
 
-char *_strncat(char *dest, char *src int n)
+char *_strncat(char *dest, char *src, int n)
 {
 		int length, z;
 
