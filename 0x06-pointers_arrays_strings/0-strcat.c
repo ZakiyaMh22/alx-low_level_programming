@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  *  * _strcat - function that concatenates two strings
@@ -24,4 +24,4 @@ char *_strcat(char *dest, char *src)
 											}
 						dest[length_of_string] = '\0';
 							return (dest);
-}i
+}
