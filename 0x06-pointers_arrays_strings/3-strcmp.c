@@ -6,7 +6,7 @@
  *    *  @s1: pointer to first string
  *     *  @s2: pointer to seconed string
  *      *
- *       *  Return: compare_value
+ *       *  Return: j
  *        */
 
 int _strcmp(char *s1, char *s2)
