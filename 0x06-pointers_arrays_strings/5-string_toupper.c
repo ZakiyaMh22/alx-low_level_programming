@@ -14,13 +14,11 @@ char *string_toupper(char *s)
 		int length_of_string;
 
 		length_of_string = 0;
-
 		while (s[length_of_string] != '\0')
 		{
 			if (s[length_of_string] >= 'a' && s[length_of_string] <= 'z')
 			{
-				s[length_of_string] = s[length_of_string] - 32;
-																
+				s[length_of_string] = s[length_of_string] - 32;						
 			}
 		length_of_string++;
 		}
