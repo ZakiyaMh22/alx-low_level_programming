@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * leet - function that encodes a string into 1337
@@ -24,13 +24,13 @@ char *leet(char *s)
 		leetCount = 0;
 		while (leetCount < 10)
 		{
-			if (leetLetters[leetCount] == s[string_length])	
+			if (leetLetters[leetCount] == s[string_length])
 			{
 				s[string_length] = leetNums[leetCount];
 			}
-		leetCount++;
+			leetCount++;
 		}
-	string_length++;
+		string_length++;
 	}
 	return (s);
 }
