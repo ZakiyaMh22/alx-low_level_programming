@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_strig - function should print only one character out of two
+ * rev_string - function should print only one character out of two
  * starting with the first one
  * @s: strig parameters input
  * Return: print
