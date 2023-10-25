@@ -13,6 +13,7 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 	unsigned int arry;
 
 	for (arry = 0; arry < n; arry++)
+
 	{
 		dest[arry] = scr[arry];
 	}
