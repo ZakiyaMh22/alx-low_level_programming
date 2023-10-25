@@ -3,7 +3,6 @@
 /**
  * _strlen_recursion - function that returns the length of a string
  * @s: pointer to print string
- * @tni: int value
  * Return: tni int value
 */
 
