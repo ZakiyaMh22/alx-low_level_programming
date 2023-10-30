@@ -4,8 +4,6 @@
  * main - function that multiplcation of two number
  * @argc: int
  * @argv: char vector
- * @a: int
- * @b: int
  * @sum: multiplcation
  * Return: 1 (success), 0 if not
 */
