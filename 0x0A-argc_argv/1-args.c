@@ -9,11 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-	int count;
+		printf("%d\n", argc);
 
-	for (count = 0; count < argc; count++)
-	{
-		printf("argv [%d] = %d\n", count, argc);
-	}
 	return (0);
 }
