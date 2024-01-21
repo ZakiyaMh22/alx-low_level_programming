@@ -15,11 +15,17 @@ char *str_concat(char *s1, char *s2)
 	char *ncat;
 	size_t length1 = 0, length2 = 0;
 
-	if (s1 == NULL && s2 == NULL)
+	if (s1 == NULL)
 	{
-		/* code */
-		return (NULL);
+		s1 = "";
 	}
+	if (s2 == NULL)
+	{
+		s2 = "";
+	}
+	length1 = strlen(s1);
+	length2 = strlen(s2);
+
 	ncat = malloc(((length1 + length2 + 1)) * sizeof(char));
 
 	strcpy(ncat, s1);
