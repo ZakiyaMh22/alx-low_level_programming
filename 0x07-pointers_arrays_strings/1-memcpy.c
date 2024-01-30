@@ -8,14 +8,14 @@
  * Return: the pointer to dest.
 */
 
-char *_memcpy(char *dest, char *src, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int arry;
 
 	for (arry = 0; arry < n; arry++)
 
 	{
-		dest[arry] = scr[arry];
+		dest[arry] = src[arry];
 	}
 	return (dest);
 }
