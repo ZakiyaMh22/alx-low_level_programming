@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/**
+ * main - Entry point. Multiplies two numbers.
+ * @argc: The number of command-line arguments.
+ * @argv: An array containing the command-line arguments.
+ *
+ * Return: 0 if successful, otherwise 1.
+ */
 int main(int argc, char *argv[])
 {
 	int cents, coins;
